@@ -58,5 +58,5 @@ FAKE(int, __cdecl, luaopen_base, lua_State *L) {
   result += luaopen_package_real(L);
   //result += luaopen_string_real(L);
   //result += luaopen_table_real(L);
-  return ret;
+  return result;
 }
